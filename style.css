@@ -1,0 +1,93 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 40px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center;
+}
+
+p {
+  color: #4c4a37; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 18px; 
+  line-height: 32px; 
+  margin: 0 0 24px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #dfe6ec;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(206, 17%, 28%);
+}
+
+input:checked+.design::before {
+  opacity: 1;
+  transform: scale(.6);
+}
+
+input:hover+.design,
+input:focus+.design {
+  border: 1px solid var(--primary);
+}
+
+input:hover+.design:before,
+input:focus+.design:before {
+  background: var(--primary);
+}
+
+input:hover~.text {
+  color: var(--primary);
+}
+
+input:focus+.design::after,
+input:active+.design::after {
+  opacity: .1;
+  transform: scale(2.6);
+}
+
+.result2
+{
+height:180px;
+width: 400px;
+background-color:rgb(195, 195, 120);
+border: solid 1px black;
+text-align: center;   
+}
+
+.question {
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 20px; 
+  font-weight: 300; 
+  line-height: 32px; 
+  margin: 0 0 25px; 
+  text-align: left;
+}
+
+
+

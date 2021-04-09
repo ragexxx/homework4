@@ -59,6 +59,8 @@ function setTime() {
             while (item.firstChild) {
                 item.removeChild(item.firstChild)
             }
+            location.reload();
+            alert("Sorry time is over, start again....")
         }
         timeElapsed.textContent = secondsUsed + " seconds";
 
